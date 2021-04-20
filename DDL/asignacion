@@ -1,0 +1,11 @@
+CREATE TABLE asignacion(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    legajo INT,
+    nombre VARCHAR(50),
+    proyecto_nombre VARCHAR(50),
+    rol_nombre VARCHAR(50),
+    fecha DATE,
+    cant_hs_dia INT,
+    cant_hs_semana INT,
+    cant_hs_mes INT
+);
